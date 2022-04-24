@@ -1,5 +1,5 @@
 :root{
-    --back-color: #606962;
+    --back-color: #a4a873;
 }
 
 .container{
@@ -24,7 +24,7 @@ img{
     margin:1em;
 }
 main{
-   background-color: #36757c;
+   background-color: #89856f;
    color:azure;
     padding:2em;
 }
