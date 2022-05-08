@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Exo+2:wght@800&display=swap');
-
+typography
 :root {
     --main-color: #38b6ff;
     --secondary-color: #beebff;
@@ -317,9 +317,17 @@ footer a:hover {
     display: none;
 }
 
-html{
+/* html{
     height: 100%;
     margin: auto;
     width: 960px;
     overflow: hidden;
 }
+
+::-webkit-scrollbar{
+    width: 20px;
+
+} */
+
+html { overflow-y: scroll; overflow-x:hidden; }
+body { position: absolute; }
