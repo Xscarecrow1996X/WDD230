@@ -7,7 +7,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 body{
     margin: 0 auto;
     /* background-color: #B3D3FA; */
-    background-color: #C9F0FF;
+    background-color: rgb(116, 207, 212);
 }
 
 h2, h3{
@@ -21,7 +21,7 @@ p{
 }
 
 #join-banner{
-    background-color: #111E34;
+    background-color: rgba(128, 110, 96, 0.3);;
     padding: 0.5rem;
     color: #EDF3DE;
     text-align: center;
@@ -30,7 +30,7 @@ p{
 }
 
 header{
-    background-color: #111E34;
+    background-color: rgba(128, 110, 96, 0.3);;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 0.6rem;
@@ -104,7 +104,7 @@ header nav ul li a{
 }
 
 header nav ul li a:hover{
-    background-color: rgba(128, 110, 96, 0.3);
+    background-color: rgb(128, 110, 96, 0.3);
 }
 
 #date{
@@ -144,7 +144,7 @@ main section{
 }
 
 main section h2{
-    text-shadow: 5px 5px 10px #111E34;
+    text-shadow: 5px 5px 10px hsl(220, 91%, 17%);
 }
 
 #siteName-action{
@@ -289,7 +289,7 @@ main section h2{
 }
 
 footer{
-    background-color: #111E34;
+    background-color: rgba(128, 110, 96, 0.3);;
     color:#EDF3DE;
     font-family: 'Arvo', serif;
     letter-spacing: 0.06em;
