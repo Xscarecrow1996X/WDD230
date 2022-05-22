@@ -171,9 +171,9 @@ main section h2{
     background-color: #806E60;
     padding: 1rem; 
     border-radius: 10px;
-    border: 2px solid #111E34;
+    border: 2px solid #806E60;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    color:#111E34;
+    color:black;
     font-size: 1rem;
 }
 
@@ -218,7 +218,7 @@ main section h2{
 }
 
 #wind-speed{
-    border-top: 1px solid #111E34;
+    border-top: 1px solid black;
     display: flex;
     justify-content: space-around;
 }
@@ -236,7 +236,7 @@ main section h2{
 }
 
 #h-join-button{
-    background-color: #111E34;
+    background-color: #806E60;
     padding: 1rem;
     border-radius: 10px;
 }
@@ -265,7 +265,7 @@ main section h2{
 }
 
 .spotlight-email{
-    border-top: 1px solid #111E34;
+    border-top: 1px solid #806E60;
     margin-bottom: 0;
     padding-top: 0.5rem;
 }
