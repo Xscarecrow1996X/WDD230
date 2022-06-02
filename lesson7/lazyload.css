@@ -16,8 +16,7 @@ h1 {
     height: 300px;
     filter: blur(0em);
     transition: filter 0.5s;
-}
-
+} 
 #container img[data-src] {
     filter: blur(0.2em);
 }
