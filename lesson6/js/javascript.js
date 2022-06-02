@@ -109,17 +109,3 @@ function createElementThree(company) {
     paf8.appendChild(p2)
     paf8.appendChild(p3)
 }
-
-const jsonUrl = "data/homejson.json"
-
-fetch(jsonUrl)
-    .then((response) => response.json())
-    .then((jsObject_) => {
-        const companies = jsObject_["companies"].at(0);
-        const companiesT = jsObject_["companies"].at(1);
-        const companiesTh = jsObject_["companies"].at(2);
-        console.log(companies)
-        createElementOne(companies);
-        createElementTwo(companiesT)
-        createElementThree(companiesTh)
-    })
