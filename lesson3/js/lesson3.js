@@ -1,2 +1,5 @@
 const lastmod = document.querySelector("#lastmod");
-lastmod.textContent = `last modified: ${document.lastModified}`;
+lastmod.textContent = `Last update: ${document.lastModified}`;
+
+const naming = document.querySelector("#naming");
+naming.textContent = `© 2022 | Juan David Engelbrecht| Aruba`
