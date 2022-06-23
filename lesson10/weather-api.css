@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(0.25turn, #f9d4d5, #faedd9, #d4fae6, #d5defb);
+    margin: 30px auto;
+    text-align: center;
+    width: 550px;
+    padding: 20px;
+    line-height: 3rem;
+    border: 10px double black;
+}
+figcaption {
+    text-transform: capitalize;
+    font-size: 1.3rem;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+img {
+    width: 60px;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
