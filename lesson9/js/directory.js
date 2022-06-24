@@ -46,7 +46,7 @@ function displayCards(cards) {
 
 }
 
-const url = "json/data.json";
+const url = "data/data.json";
 
 fetch(url)
     .then((response) => response.json())
